@@ -1,6 +1,6 @@
 # modpack-lib
 
-[![Azure board status badge](https://dev.azure.com/gsri/68602664-8df7-46ae-af76-a9dd2ee88310/cec71cda-8680-4cc2-9759-1be1b4e33c93/_apis/work/boardbadge/7db15985-6817-46ff-9d02-5968592febfd)](https://dev.azure.com/gsri/68602664-8df7-46ae-af76-a9dd2ee88310/_boards/board/t/cec71cda-8680-4cc2-9759-1be1b4e33c93/Microsoft.RequirementCategory/)
+![Azure board status badge](https://dev.azure.com/gsri/68602664-8df7-46ae-af76-a9dd2ee88310/cec71cda-8680-4cc2-9759-1be1b4e33c93/_apis/work/boardbadge/7db15985-6817-46ff-9d02-5968592febfd?columnOptions=1)
 
 ![Azure release status badge](https://vsrm.dev.azure.com/gsri/_apis/public/Release/badge/68602664-8df7-46ae-af76-a9dd2ee88310/1/1)
 
