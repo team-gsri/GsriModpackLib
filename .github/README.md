@@ -1,5 +1,7 @@
 # modpack-lib
 
+![Azure release status badge](https://vsrm.dev.azure.com/gsri/_apis/public/Release/badge/68602664-8df7-46ae-af76-a9dd2ee88310/1/1)
+
 ## What is `modpack-lib`?
 
 This a project is a PowerShell Gallery module used by [french Arma 3 milsim unit GSRI](https://www.gsri.team) to help with our modpack maintenance.
