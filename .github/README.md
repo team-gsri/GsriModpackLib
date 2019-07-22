@@ -1,8 +1,10 @@
 # modpack-lib
 
-![Azure board status badge](https://dev.azure.com/gsri/68602664-8df7-46ae-af76-a9dd2ee88310/cec71cda-8680-4cc2-9759-1be1b4e33c93/_apis/work/boardbadge/7db15985-6817-46ff-9d02-5968592febfd?columnOptions=1)
+[![GitHub release](https://img.shields.io/github/release/team-gsri/modpack-lib.svg)](https://GitHub.com/team-gsri/modpack-lib/releases/) [![GitHub issues](https://img.shields.io/github/issues/team-gsri/modpack-lib.svg)](https://GitHub.com/team-gsri/modpack-lib/issues/) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/team-gsri/modpack-lib.svg)](https://GitHub.com/team-gsri/modpack-lib/pulls/)
 
-![Azure release status badge](https://vsrm.dev.azure.com/gsri/_apis/public/Release/badge/68602664-8df7-46ae-af76-a9dd2ee88310/1/1)
+[![Board Status](https://dev.azure.com/gsri/68602664-8df7-46ae-af76-a9dd2ee88310/cec71cda-8680-4cc2-9759-1be1b4e33c93/_apis/work/boardbadge/7db15985-6817-46ff-9d02-5968592febfd?columnOptions=1)](https://dev.azure.com/gsri/68602664-8df7-46ae-af76-a9dd2ee88310/_boards/board/t/cec71cda-8680-4cc2-9759-1be1b4e33c93/Microsoft.RequirementCategory/)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5779ec34ae84475092900e423428ec29)](https://www.codacy.com/app/ArwynFr/modpack-lib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=team-gsri/modpack-lib&amp;utm_campaign=Badge_Grade) [![Azure release status badge](https://vsrm.dev.azure.com/gsri/_apis/public/Release/badge/68602664-8df7-46ae-af76-a9dd2ee88310/1/1)](https://dev.azure.com/gsri/modpack-lib/_release?view=all&definitionId=1)
 
 ## What is `modpack-lib`?
 
