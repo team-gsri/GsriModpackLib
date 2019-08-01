@@ -11,6 +11,6 @@
     FunctionsToExport = @(
         'Install-TaskForceAddon',
         'Install-Preset',
-        'Write-InstallationStatus'
+        'Show-InstallationStatus'
     )
 }

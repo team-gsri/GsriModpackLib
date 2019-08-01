@@ -1,7 +1,7 @@
-function Write-TaskForceStatus {
+function Show-TaskForceStatus {
     [CmdletBinding()]
     param()
 
     $Result = Test-TaskForceStatus -Verbose:($PSBoundParameters['Verbose'] -eq $true)
-    return Write-Generic -Message 'Checking TFAR plugin installation' -Result $Result    
+    return Show-Generic -Message 'Checking TFAR plugin installation' -Result $Result    
 }

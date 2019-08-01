@@ -27,7 +27,7 @@ This library is distributed through PowerShell Gallery. If you want to use it, j
 Install-Module GsriModpackLib
 Import-Module GsriModpackLib
 
-Write-InstallationStatus
+Show-InstallationStatus
 ```
 
 Available functions are listed on the module manifest. You may use `Get-Help` for details on how to use each of them.

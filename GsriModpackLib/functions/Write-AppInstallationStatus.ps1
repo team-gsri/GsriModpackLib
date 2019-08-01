@@ -1,4 +1,4 @@
-function Write-AppInstallationStatus {
+function Show-AppInstallationStatus {
     [CmdletBinding()]
     param(
         [string]$Name,
@@ -7,5 +7,5 @@ function Write-AppInstallationStatus {
         [switch]$IsWOW64
     )
     $Result = (Test-AppInstallation -Name $Name -Node $Node -Property $Property -IsWOW64:$IsWOW64 -Verbose:($PSBoundParameters['Verbose'] -eq $true))
-    return Write-Generic -Message "Checking app installation $Name" -Result $Result
+    return Show-Generic -Message "Checking app installation $Name" -Result $Result
 }
