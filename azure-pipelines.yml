@@ -38,7 +38,7 @@ stages:
       displayName: Publish unit tests coverage report to Azure DevOps
       inputs:
         summaryFileLocation: $(build.sourcesDirectory)/coverage.xml
-        pathToSources: $(build.sourcesDirectory)/StepSemVer
+        pathToSources: $(build.sourcesDirectory)/GsriModpackLib
         reportDirectory: $(build.sourcesDirectory)/coverage-report
         failIfCoverageEmpty: true
 
