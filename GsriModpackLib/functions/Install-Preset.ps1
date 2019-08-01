@@ -14,16 +14,20 @@
 .NOTES
 #>
 function Install-Preset {
-    [CmdletBinding()]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Low')]
     param(
         [string]$Path,
         [string]$Name
     )
 
-    if (-not(Test-Path $Path -PathType Container)) {
-        throw "$Path not found"
+    $File = "$env:LOCALAPPDATA\Arma 3 Launcher\Presets\$Name.preset2"
+    if (Test-Path $File) { 
+        if ($PSCmdlet.ShouldProcess($File, 'Remove-Item')) {
+            Remove-Item $File 
+        }
     }
+    
     Get-ChildItem -Path $Path -Recurse -Filter "@*" |
     Where-Object { -not ($_.FullName -like "*\Campaign\@*") } |
-    Write-Preset -Name $Name -Verbose:($PSBoundParameters['Verbose'] -eq $true)
+    Write-Preset -File $File -Verbose:($PSBoundParameters['Verbose'] -eq $true)
 }

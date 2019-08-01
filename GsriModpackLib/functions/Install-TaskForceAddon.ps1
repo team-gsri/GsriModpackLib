@@ -14,7 +14,7 @@
 .NOTES
 #>
 function Install-TaskForceAddon {
-    [CmdletBinding()]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Low')]
     Param(
         [string] $PluginSource
     )
@@ -27,7 +27,10 @@ function Install-TaskForceAddon {
     }
     if (-not(Test-TaskForceLegacy)) {
         Write-Verbose 'TFAR 0.x found'
-        Remove-TaskForceLegacy 
+        if ($PSCmdlet.ShouldProcess('Performing TFAR 0.x uninstalltion', 'Confirm TFAR 0.x uninstallation ?', '')) {
+            Remove-TaskForceLegacy 
+        }
     }
+
     Expand-TaskForceBeta -PluginSource $PluginSource
 }

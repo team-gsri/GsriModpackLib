@@ -3,12 +3,11 @@ function Write-Preset {
     param(
         [Parameter(ValueFromPipeline)]
         [object[]]$Mods,
-        [string]$Name
+        [string]$File
     )
     Begin {
         $PresetDate = Get-Date -Format "o"
-        $File = "$env:LOCALAPPDATA\Arma 3 Launcher\Presets\$Name.preset2"
-        if (Test-Path $File) { Remove-Item $File }
+
         Add-Content -Path $File '<?xml version="1.0" encoding="utf-8"?>'
         Add-Content -Path $File '<addons-presets>'
         Add-Content -Path $File "<last-update>$PresetDate</last-update>"
