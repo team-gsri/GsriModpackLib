@@ -1,4 +1,5 @@
 function Test-NodePathAndPropertyValue {
+    [OutputType([bool])]
     [CmdletBinding()]
     param(
         [string]$Node,

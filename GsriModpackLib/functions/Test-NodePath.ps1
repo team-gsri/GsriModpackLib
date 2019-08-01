@@ -1,4 +1,5 @@
 function Test-NodePath {
+    [OutputType([bool])]
     [CmdletBinding()]
     param(
         [Parameter(Position = 0)]

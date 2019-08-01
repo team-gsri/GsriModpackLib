@@ -1,4 +1,5 @@
 function Test-ModpackVersion {
+    [OutputType([bool])]
     [CmdletBinding()]
     param(
         [string]$Path

@@ -1,4 +1,5 @@
-function Write-Generic {
+function Show-Generic {
+    [OutputType([int])]
     [CmdletBinding()]
     param(
         [string]$Message,

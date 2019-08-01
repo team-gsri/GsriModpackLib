@@ -1,4 +1,5 @@
 function  Test-TaskForceStatus {
+    [OutputType([bool])]
     [CmdletBinding()]
     param ()
     

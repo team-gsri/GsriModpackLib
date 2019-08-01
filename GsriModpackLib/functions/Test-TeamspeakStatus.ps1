@@ -1,4 +1,5 @@
 function Test-TeamspeakStatus {
+    [OutputType([bool])]
     [CmdletBinding()]
     Param()
 
