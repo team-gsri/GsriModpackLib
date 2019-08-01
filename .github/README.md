@@ -1,10 +1,11 @@
-# modpack-lib
+# GsriModpackLib
 
-![Azure board status badge](https://dev.azure.com/gsri/68602664-8df7-46ae-af76-a9dd2ee88310/cec71cda-8680-4cc2-9759-1be1b4e33c93/_apis/work/boardbadge/7db15985-6817-46ff-9d02-5968592febfd?columnOptions=1)
+*   [![GitHub](https://img.shields.io/badge/-GitHub-lightgrey)](https://github.com/team-gsri/modpack-lib) [![Azure DevOps](https://img.shields.io/badge/-Azure_DevOps-lightgrey)](https://dev.azure.com/gsri/modpack-lib/) [![Codacy](https://img.shields.io/badge/-Codacy-lightgrey)](https://app.codacy.com/project/ArwynFr/modpack-lib/dashboard) [![PSGallery](https://img.shields.io/badge/-PowerShell_Gallery-lightgrey)](https://www.powershellgallery.com/packages/GsriModpackLib)
+*   ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/team-gsri/modpack-lib) ![GitHub last commit](https://img.shields.io/github/last-commit/team-gsri/modpack-lib)
+*   ![Azure DevOps builds](https://img.shields.io/azure-devops/build/gsri/modpack-lib/1) ![Azure DevOps tests](https://img.shields.io/azure-devops/tests/gsri/modpack-lib/1) ![Codacy grade](https://img.shields.io/codacy/grade/5779ec34ae84475092900e423428ec29)
+*   ![PowerShell Gallery](https://img.shields.io/powershellgallery/v/GsriModpackLib) ![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/GsriModpackLib)
 
-![Azure release status badge](https://vsrm.dev.azure.com/gsri/_apis/public/Release/badge/68602664-8df7-46ae-af76-a9dd2ee88310/1/1)
-
-## What is `modpack-lib`?
+## What is GsriModpackLib?
 
 This a project is a PowerShell Gallery module used by [french Arma 3 milsim unit GSRI](https://www.gsri.team) to help with our modpack maintenance.
 
