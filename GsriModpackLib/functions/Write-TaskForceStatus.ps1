@@ -1,4 +1,5 @@
 function Show-TaskForceStatus {
+    [OutputType([int])]
     [CmdletBinding()]
     param()
 

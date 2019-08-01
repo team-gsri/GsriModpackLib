@@ -1,4 +1,5 @@
 function Show-ModpackStatus {
+    [OutputType([int])]
     [CmdletBinding()]
     param(
         [string] $Path

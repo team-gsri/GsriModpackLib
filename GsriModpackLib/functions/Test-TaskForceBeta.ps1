@@ -1,4 +1,5 @@
 function Test-TaskForceBeta {
+    [OutputType([bool])]
     [CmdletBinding()]
     param()
 

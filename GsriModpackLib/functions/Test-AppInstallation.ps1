@@ -1,4 +1,5 @@
 function Test-AppInstallation {
+    [OutputType([bool])]
     [CmdletBinding()]
     param(
         [string]$Name,

@@ -14,6 +14,7 @@
 .NOTES
 #>
 function Show-InstallationStatus {
+    [OutputType([bool])]
     [CmdletBinding()]
     param(
         [string]$Path = '.'

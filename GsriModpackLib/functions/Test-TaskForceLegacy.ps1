@@ -1,4 +1,5 @@
 function Test-TaskForceLegacy {
+    [OutputType([bool])]
     [CmdletBinding()]
     param()
 

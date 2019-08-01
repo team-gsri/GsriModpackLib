@@ -1,4 +1,5 @@
 function Get-LocalVersion {
+    [OutputType([int])]
     [CmdletBinding()]
     param(
         [string]$Path

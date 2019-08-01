@@ -1,4 +1,5 @@
 function Test-Paths {
+    [OutputType([bool])]
     [CmdletBinding()]
     param(
         [Parameter(ValueFromPipeline)]

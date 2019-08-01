@@ -1,4 +1,5 @@
 function Show-AppInstallationStatus {
+    [OutputType([int])]
     [CmdletBinding()]
     param(
         [string]$Name,
