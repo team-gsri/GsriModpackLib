@@ -1,8 +1,8 @@
 # GsriModpackLib
 
-*   [![GitHub](https://img.shields.io/badge/-GitHub-lightgrey)](https://github.com/team-gsri/modpack-lib) [![Azure DevOps](https://img.shields.io/badge/-Azure_DevOps-lightgrey)](https://dev.azure.com/gsri/modpack-lib/) [![Codacy](https://img.shields.io/badge/-Codacy-lightgrey)](https://app.codacy.com/project/ArwynFr/modpack-lib/dashboard) [![PSGallery](https://img.shields.io/badge/-PowerShell_Gallery-lightgrey)](https://www.powershellgallery.com/packages/GsriModpackLib)
-*   ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/team-gsri/modpack-lib) ![GitHub last commit](https://img.shields.io/github/last-commit/team-gsri/modpack-lib)
-*   ![Azure DevOps builds](https://img.shields.io/azure-devops/build/gsri/modpack-lib/1) ![Azure DevOps tests](https://img.shields.io/azure-devops/tests/gsri/modpack-lib/1) ![Codacy grade](https://img.shields.io/codacy/grade/5779ec34ae84475092900e423428ec29)
+*   [![GitHub](https://img.shields.io/badge/-GitHub-lightgrey)](https://github.com/team-gsri/GsriModpackLib) [![Azure DevOps](https://img.shields.io/badge/-Azure_DevOps-lightgrey)](https://dev.azure.com/gsri/GsriModpackLib/) [![Codacy](https://img.shields.io/badge/-Codacy-lightgrey)](https://app.codacy.com/project/ArwynFr/GsriModpackLib/dashboard) [![PSGallery](https://img.shields.io/badge/-PowerShell_Gallery-lightgrey)](https://www.powershellgallery.com/packages/GsriModpackLib)
+*   ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/team-gsri/GsriModpackLib) ![GitHub last commit](https://img.shields.io/github/last-commit/team-gsri/GsriModpackLib)
+*   ![Azure DevOps builds](https://img.shields.io/azure-devops/build/gsri/GsriModpackLib/4) ![Azure DevOps tests](https://img.shields.io/azure-devops/tests/gsri/GsriModpackLib/4) ![Codacy grade](https://img.shields.io/codacy/grade/5779ec34ae84475092900e423428ec29)
 *   ![PowerShell Gallery](https://img.shields.io/powershellgallery/v/GsriModpackLib) ![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/GsriModpackLib)
 
 ## What is GsriModpackLib?
