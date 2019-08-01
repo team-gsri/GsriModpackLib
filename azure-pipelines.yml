@@ -51,6 +51,7 @@ stages:
     
 - stage: deploy
   displayName: Deployment
+  condition: and(succeeded(), ne('PullRequest', variables['Build.Reason']))
   jobs:
   - job: psgallery
     displayName: Publishing to PSGallery
