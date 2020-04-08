@@ -28,6 +28,6 @@ function Install-Preset {
     }
     
     Get-ChildItem -Path $Path -Recurse -Filter "@*" |
-    Where-Object { -not ($_.FullName -like "*\Campaign\@*") } |
+    Where-Object { ($_.FullName -like "*\Core\@*") -or ($_.FullName -like "*\Optionals\@*") } |
     Write-Preset -File $File -Verbose:($PSBoundParameters['Verbose'] -eq $true)
 }
